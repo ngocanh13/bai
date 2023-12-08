@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java6.StudentFormController">
+   <children>
+      <Text fill="#000000e9" layoutX="200.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Studen information">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="ipFullName" layoutX="29.0" layoutY="89.0" text="full name" />
+      <TextField fx:id="ipEmail" layoutX="29.0" layoutY="148.0" text="Email" />
+      <TextField fx:id="ipTel" layoutX="33.0" layoutY="220.0" text="Telephone" />
+      <TextArea fx:id="ipAddress" layoutX="33.0" layoutY="347.0" prefHeight="81.0" prefWidth="232.0" text="Address" />
+      <Button layoutX="225.0" layoutY="467.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: pink;" text="Submit" textFill="#1d2222" />
+      <TextField  layoutX="307.0" layoutY="89.0" style="-fx-background-color: wh;" text="Information" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+      <DatePicker fx:id="ipDoB" layoutX="30.0" layoutY="295.0" prefHeight="39.0" prefWidth="224.0" />
+      <ListView fx:id="listView" layoutX="301.0" layoutY="150.0" prefHeight="279.0" prefWidth="304.0" />
+   </children>
+</Pane>
